@@ -9,31 +9,43 @@
 		<title>Raul's Portfolio</title>
 	</head>
 	<body>
-			<nav class="navbar navbar-expand-sm navbar-light bg-light transparent">
-				<a class="navbar-brand" href="#">
-						<img src="assets/images/BlackCodingLogoCropped.png" width="60" class="d-inline-block align-top" alt="">
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNav">
-					<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		<nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark transparent">
+			<a class="navbar-brand mx-auto" href="#welcome">
+					<img src="assets/images/WhiteCodingLogoCropped.png" width="60" class="d-inline-block align-top" alt="">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#welcome">Home<span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
+						<a class="nav-link" href="#about">About Me</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
+						<a class="nav-link" href="#portfolio">Portfolio</a>
 					</li>
-					</ul>
-				</div>
-				</nav>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 		<!-- Bootstrap container -->
 		<div class="container-fluid">
-			<div class="row">
-				<h1>Welcome</h1>
+			<div class="row main-row">
+				<div class="col-sm-12">
+					<section id="welcome" class="appear">
+						<h1>Raul Gonzalez</h1>
+						<p>Full Stack Web Developer</p>
+					</section>
+					<section id="about">About me</section>
+					<section id="portfolio">Portfolio</section>
+					<section id="contact">Contact</section>
+				</div>
+				
 			</div>
 		</div>
 
@@ -41,7 +53,10 @@
 		<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<!-- Smooth scroll cdn -->
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
 		<!-- Other JS files -->
+		<script src="assets/javascript/smooth-scroll.js"></script>
 		<script src="assets/javascript/index.js"></script>
 	</body>
 </html>
