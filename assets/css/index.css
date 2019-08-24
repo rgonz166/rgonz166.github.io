@@ -85,6 +85,12 @@ section{
 }
 
 @media screen and (max-width: 575px){
+    .appear h1{
+        font-size: 3rem;
+    }
+    .appear p{
+        font-size: 1rem;
+    }
     .card{
         width: 80%;
     }
