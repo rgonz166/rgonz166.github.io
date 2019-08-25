@@ -12,7 +12,7 @@ body{
 
 }
 .bg-dark {
-    background:transparent !important;
+    background:#343a40be !important;
 }
 .navbar a{
     cursor: pointer;
@@ -70,6 +70,19 @@ section{
     justify-content: center;
     margin-left: 70px;
 }
+footer{
+    background-color: #343a40;
+    /* background-color: rgb(31, 30, 30); */
+    color: white;
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+    height: 30px;
+}
+footer a svg{
+    padding-top: 2px;
+    cursor: pointer;
+}
 
 @media screen and (max-width: 1000px){
     nav a img{
@@ -94,6 +107,9 @@ section{
         font-size: .1rem;
         width: 70%;
     }
+    section#contact .row{
+        margin-left: 40px;
+    }
 }
 
 @media screen and (max-width: 575px){
@@ -104,6 +120,19 @@ section{
         font-size: 1rem;
     }
     .card{
+        margin-left: 30px;
         width: 80%;
+    }
+    section#contact .row{
+        width: 100%;
+        margin-left: 0;
+    }
+    section#contact{
+        height: auto;
+    }
+    .email-to{
+        padding-top: 3px;
+        color: white;
+        font-size: .7rem;
     }
 }
