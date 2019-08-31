@@ -98,50 +98,17 @@
 							</div>
 						</div>
 					</section>
-					<section id="about">About me</section>
+					<section id="about">
+						<h2>About</h2>
+						<p>I am a student attending UCSD-Extension Web Development bootcamp. I have learned HTML, CSS, Javascript, jQuery, </p>
+					</section>
 					<section id="contact">
-						<div class="row">
-							<div class="container col-12 contact-container">
-								<div class="row">
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_name">Firstname *</label>
-											<input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label for="form_lastname">Lastname *</label>
-											<input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<label for="form_email">Email *</label>
-												<input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-												<div class="help-block with-errors"></div>
-											</div>
-										</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group">
-											<label for="form_message">Message *</label>
-											<textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="6" required="required" data-error="Please, leave us a message."></textarea>
-											<div class="help-block with-errors"></div>
-										</div>
-									</div>
-									<div class="col-md-12">
-										<input type="submit" class="btn btn-light btn-send" value="Send message">
-									</div>
-								</div>
-							</div>
-						</div>
-
+									<form method="POST" action="https://formspree.io/rgonz166@gmail.com">
+										<div class="row"><input type="text" name="name" placeholder="Your Name"></div>
+										<div class="row"><input type="email" name="email" placeholder="Your email"></div>
+										<div class="row"><textarea name="message" placeholder="Test Message"></textarea></div>
+										<div class="row"><button type="submit">Send Test</button></div>
+									  </form>
 					</section>
 					
 				</div>
